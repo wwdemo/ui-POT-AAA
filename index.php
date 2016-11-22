@@ -1,7 +1,7 @@
 <?php
 require_once("service-discovery.php");
 
-// Get our Catalog API endpoint from Service Discovery
+// Get our Catalog API endpoint from my microservice
 $catalogRoute = "https://microservices-catalogapi-aaa.mybluemix.net";
 
 // Get the products from our Catalog API
